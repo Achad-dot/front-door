@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/(sw.js|manifest.webmanifest|progressier.json)", "destination": "/$1" },
+    { "source": "/(.*)", "destination": "https://jazz-elm-97610577.figma.site/$1" }
+  ]
+}
